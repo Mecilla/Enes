@@ -1,0 +1,15 @@
+MainMenu = Main Menu
+Login = Login
+Start = Start
+ScoreBoard = ScoreBoard
+Register = Register
+Yes = Yes
+No = No
+Mail = Mail
+Password = Password
+Back = Back
+NickName = NickName
+Email=Email
+PasswordVerify=PasswordVerify
+Continue = Continue
+Logout= Logout

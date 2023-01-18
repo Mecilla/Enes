@@ -1,0 +1,15 @@
+MainMenu = Ana Menu
+Login = Giriş
+Start = Başla
+ScoreBoard = Skor Tablosu
+Register = Kayıt ol
+Yes = Evet
+No = Hayır
+Mail = Mail
+Password = Sifre
+Back = Geri
+NickName = Kullanıcı Adı
+Email=Email
+PasswordVerify= Sifre Tekrar
+Continue = Devam et
+Logout= Cikis Yap
