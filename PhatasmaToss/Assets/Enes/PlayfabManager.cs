@@ -53,6 +53,7 @@ public class PlayfabManager : MonoBehaviour
         loginUI.SetActive(false);
         NextScene.SetActive(true);
         print("Logged in!");
+        
     }
     private void OnRegisterSuccess(RegisterPlayFabUserResult result)
     {

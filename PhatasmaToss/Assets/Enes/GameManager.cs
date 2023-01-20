@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        
+
         kills = PlayerPrefs.GetInt("kills");
         scoreArea = GameObject.FindGameObjectWithTag("NextLevel");
         x = kills;
@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
         getButtons();
     }
 
-    private void getButtons()
+    public void getButtons()
     {
 
 
@@ -46,10 +46,23 @@ public class GameManager : MonoBehaviour
 
         }
 
-        GameObject asd = levelsButton[levelsButton.Count - 1];
-        asd.transform.DOShakeScale(1.5f,2,10);
+        // GameObject asd = levelsButton[levelsButton.Count - 1];
+        // asd.transform.DOShakeScale(1.5f,2,10);
 
     }
+
+    // private void Update()
+    // {
+    //     for (int i = 0; i <= x; i++)
+    //     {
+
+    //         levelsButton[i].SetActive(true);
+
+    //     }
+
+    //     // GameObject asd = levelsButton[levelsButton.Count - 1];
+    //     // asd.transform.DOShakeScale(1.5f,2,10);
+    // }
 
     void RequestBanner()
     {
