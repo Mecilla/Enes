@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Shoot;
 
 public class Power : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class Power : MonoBehaviour
     public static bool isPowerUp = true;
     public static bool stopHand;
     public GameObject nextLevel;
+    public static bool shoootttt;
     bool isDirection = true;
     private bool againTRY;
     private int tryCount;
@@ -44,7 +46,7 @@ public class Power : MonoBehaviour
     {
         
         startPos = ReSpawn.transform;
-        print(startPos.transform);
+        // print(startPos.transform);
 
         if (isPowerUp == true)
         {
@@ -97,6 +99,7 @@ public class Power : MonoBehaviour
     }
     public void Shot()
     {
+        shoootttt=true;
         tryCount -= 1;
         EndPower();
         if (tryCount==0)
@@ -110,7 +113,7 @@ public class Power : MonoBehaviour
         PowerText.text = power.ToString("F0");
 
 
-        player.GetComponent<Rigidbody>().velocity = new Vector3(0, power / 20, power / 20);
+        // player.GetComponent<Rigidbody>().velocity = new Vector3(0, power / 20, power / 20);
         isPowerUp = true;
         againTRY = true;
         
@@ -122,7 +125,6 @@ public class Power : MonoBehaviour
     {
         while (againTRY==true&&ScoreArea.alicemDogru!=true&&tryCount!=0)
         {
-            print("oykus");
             yield return new WaitForSeconds(3f);
             player.transform.position = new Vector3(startPos.transform.position.x, startPos.transform.position.y, startPos.transform.position.z);
             yield return new WaitForSeconds(1.5f);

@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Enes/SampleScene.unity
+    path: Assets/Enes/LoginScene.unity
     guid: d3c095d7e7b30644c925998a0b5842a5
   - enabled: 1
     path: Assets/Enes/MainMenu.unity

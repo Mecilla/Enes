@@ -379,6 +379,7 @@
 "Assets/Enes/Oyku/ADManager.cs"
 "Assets/Enes/Oyku/GoldManager.cs"
 "Assets/Enes/Oyku/NetworkCheck.cs"
+"Assets/Enes/Oyku/Projectile.cs"
 "Assets/Enes/Oyku/Purchaser.cs"
 "Assets/Enes/Oyku/UIManager.cs"
 "Assets/Enes/PlayfabManager.cs"
